@@ -1,0 +1,26 @@
+{
+  "name": "budgety-es6",
+  "version": "1.0.0",
+  "description": "Es6 version of Budgety",
+  "main": "app.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "start": "webpack-dev-server --mode development --open"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/temmyjay001/Budgety-ES6.git"
+  },
+  "author": "Ajayi solomon",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/temmyjay001/Budgety-ES6/issues"
+  },
+  "homepage": "https://github.com/temmyjay001/Budgety-ES6#readme",
+  "devDependencies": {
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  }
+}
